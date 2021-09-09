@@ -1,0 +1,1 @@
+<img src="screenshot.jpeg" alt="IT Computer City">
