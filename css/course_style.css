@@ -1,0 +1,162 @@
+#course_overview_area .course_overview_title {
+    background-color: gainsboro;
+    padding: 15px 0;
+}
+
+#course_overview_area .course_overview_title h2 {
+    text-align: center;
+    color: #BD070E;
+    margin-bottom: 5px;
+}
+
+#course_overview_area .course_overview_title p {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#course_overview {
+    padding: 40px 0 30px;
+    width: 100%;
+    height: auto;
+    float: left;
+    /* background-color: red; */
+}
+
+
+/* Course Overview Left */
+
+#course_overview .course_overview_left {
+    width: 25%;
+    float: left;
+}
+
+#course_overview .course_overview_left h2 {
+    padding: 12px 10px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #0085BA;
+}
+
+#course_overview .course_overview_left .courses_list {
+    padding: 5px 0;
+}
+
+#course_overview .course_overview_left .courses_list ul {
+    list-style-type: none;
+}
+
+#course_overview .course_overview_left .courses_list ul li::before {
+    content: "";
+    line-height: 16px;
+    width: 10px;
+    height: 10px;
+    background-color: #0064CD;
+    float: left;
+    margin: 6px 10px 0;
+}
+
+#course_overview .course_overview_left .courses_list ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+
+#course_overview .course_overview_left .courses_list ul li a:hover {
+    color: orange;
+}
+
+
+/* Course Overview Right */
+
+#course_overview .course_overview_right {
+    width: 75%;
+    float: left;
+}
+
+#course_overview .course_overview_right h2 {
+    padding: 12px 10px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #0064CD;
+}
+
+#course_overview .course_overview_right .course_overview_img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* course overview details */
+
+#course_overview .course_overview_right .course_overview_details {
+    padding: 15px 0 0;
+    width: 100%;
+}
+
+#course_overview .course_overview_right .course_overview_details .course_overview_list h3 {
+    color: #0064CD;
+    margin-bottom: 10px;
+}
+
+#course_overview .course_overview_right .course_overview_details .course_duration h3 {
+    color: #0064CD;
+    margin-bottom: 10px;
+}
+
+#course_overview .course_overview_right .course_overview_details .course_fee h3 {
+    color: #0064CD;
+    margin-bottom: 10px;
+}
+
+#course_overview .course_overview_right .course_overview_details .course_overview_list {
+    width: 35%;
+    float: left;
+}
+
+#course_overview .course_overview_right .course_overview_details .course_overview_list .course_over_list_item ul {
+    list-style-type: none;
+}
+
+#course_overview .course_overview_right .course_overview_details .course_overview_list .course_over_list_item ul li::before {
+    content: "";
+    /* line-height: 20px; */
+    width: 10px;
+    height: 10px;
+    background-color: #0064CD;
+    float: left;
+    margin: 6px 10px 0;
+}
+
+#course_overview .course_overview_right .course_overview_details .course_overview_list .course_over_list_item ul li ul li::before {
+    content: "";
+    line-height: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    float: left;
+    margin: 6px 10px 0;
+}
+
+#course_overview .course_overview_right .course_overview_details .course_overview_list ul li {
+    margin-bottom: 5px;
+    color: black;
+    font-size: 16px;
+}
+
+#course_overview .course_overview_right .course_overview_details .course_overview_list ul li ul li {
+    margin-top: 5px;
+}
+
+#course_overview .course_overview_right .course_overview_details .course_duration {
+    width: 30%;
+    float: left;
+}
+
+#course_overview .course_overview_right .course_overview_details .course_fee {
+    width: 35%;
+    float: left;
+}
